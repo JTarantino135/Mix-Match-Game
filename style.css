@@ -1,0 +1,122 @@
+html, body {
+    background: linear-gradient(110deg, #7EE8FA 50%, #EEC0C6);
+    margin: 0;
+    padding: 0;
+}
+
+.image-grid div {
+    width: 25%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+    
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image01 { 
+    background-image: url('https://cdn.mos.cms.futurecdn.net/86VBUTiQ6zoCyHxwcomDge-320-80.jpg'); 
+}
+.image02 { 
+    background-image: url('https://i.pinimg.com/550x/62/4e/71/624e71eb2c9eb62c239ff0a31a252edf.jpg'); 
+}
+.image03 { 
+    background-image: url('https://cdn.mos.cms.futurecdn.net/86VBUTiQ6zoCyHxwcomDge-320-80.jpg'); 
+}
+.image04 { 
+    background-image: url('https://i.pinimg.com/550x/62/4e/71/624e71eb2c9eb62c239ff0a31a252edf.jpg'); 
+}
+.image05 { 
+    background-image: url('https://cdn.vox-cdn.com/thumbor/anTRoJM7iBFrIwkkQZeTPcu6ZYI=/1400x1050/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/21984044/Screen_Shot_2020_10_23_at_11.47.44_AM.png'); 
+}
+.image06 { 
+    background-image: url('https://parentpreviews.com/images/made/legacy-pics/dumbo_960_720_80.jpg'); 
+}
+.image07 { 
+    background-image: url('https://cdn.vox-cdn.com/thumbor/anTRoJM7iBFrIwkkQZeTPcu6ZYI=/1400x1050/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/21984044/Screen_Shot_2020_10_23_at_11.47.44_AM.png'); 
+}
+.image08 { 
+    background-image: url('https://parentpreviews.com/images/made/legacy-pics/dumbo_960_720_80.jpg'); 
+}
+.image09 { 
+    background-image: url('https://cdn.mos.cms.futurecdn.net/86VBUTiQ6zoCyHxwcomDge-320-80.jpg'); 
+}
+.image10 { 
+    background-image: url('https://cdn.mos.cms.futurecdn.net/86VBUTiQ6zoCyHxwcomDge-320-80.jpg'); 
+}
+.image11 { 
+    background-image: url('https://i.pinimg.com/550x/62/4e/71/624e71eb2c9eb62c239ff0a31a252edf.jpg'); 
+}
+.image12 { 
+    background-image: url('https://i.pinimg.com/550x/62/4e/71/624e71eb2c9eb62c239ff0a31a252edf.jpg'); 
+}
+
+.title {
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    font-size: 4em;
+}
+
+
+ 
+
+.button {
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background-color: #0033ff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand, sans-serif";
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    float: right;
+    margin-right:20px;
+    margin-top: -80px;
+}
+
+.button:hover {
+    background: #0033cc;
+}
+
+.button:active {
+    background: #003366;
+}
+
+.button-text, 
+.button-icon{
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: white;
+    height: 100%;
+}
+
+.button-icon {
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+
+
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  
+  @media screen and (max-width: 600px) {
+    .image-grid {
+      flex-direction: column;
+      flex-wrap: no-wrap;
+    }
+    .image-grid div { width: 100% }
+  }
+
+
